@@ -19,6 +19,8 @@
 		D4DE33242775A98D003CC634 /* TestImageGLKitUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DE33232775A98D003CC634 /* TestImageGLKitUITestsLaunchTests.m */; };
 		D4DE33332775AAB5003CC634 /* XNTestGLkitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DE33322775AAB5003CC634 /* XNTestGLkitViewController.m */; };
 		D4DE33352775AC5A003CC634 /* 2000140048_14.png in Resources */ = {isa = PBXBuildFile; fileRef = D4DE33342775AC5A003CC634 /* 2000140048_14.png */; };
+		D4DE33392775BE63003CC634 /* XNFetchImageColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DE33382775BE63003CC634 /* XNFetchImageColorViewController.m */; };
+		D4DE333F2775C06F003CC634 /* UIImage+SubjectColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DE333E2775C06F003CC634 /* UIImage+SubjectColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,10 @@
 		D4DE33312775AAB5003CC634 /* XNTestGLkitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XNTestGLkitViewController.h; sourceTree = "<group>"; };
 		D4DE33322775AAB5003CC634 /* XNTestGLkitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XNTestGLkitViewController.m; sourceTree = "<group>"; };
 		D4DE33342775AC5A003CC634 /* 2000140048_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2000140048_14.png; sourceTree = "<group>"; };
+		D4DE33372775BE63003CC634 /* XNFetchImageColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XNFetchImageColorViewController.h; sourceTree = "<group>"; };
+		D4DE33382775BE63003CC634 /* XNFetchImageColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XNFetchImageColorViewController.m; sourceTree = "<group>"; };
+		D4DE333D2775C06F003CC634 /* UIImage+SubjectColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SubjectColor.h"; sourceTree = "<group>"; };
+		D4DE333E2775C06F003CC634 /* UIImage+SubjectColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SubjectColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 		D4DE32FA2775A98A003CC634 /* TestImageGLKit */ = {
 			isa = PBXGroup;
 			children = (
+				D4DE33362775BE49003CC634 /* 图片获取颜色 */,
 				D4DE32FB2775A98A003CC634 /* AppDelegate.h */,
 				D4DE32FC2775A98A003CC634 /* AppDelegate.m */,
 				D4DE32FE2775A98A003CC634 /* SceneDelegate.h */,
@@ -150,6 +157,17 @@
 				D4DE33322775AAB5003CC634 /* XNTestGLkitViewController.m */,
 			);
 			path = GLKit;
+			sourceTree = "<group>";
+		};
+		D4DE33362775BE49003CC634 /* 图片获取颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				D4DE33372775BE63003CC634 /* XNFetchImageColorViewController.h */,
+				D4DE33382775BE63003CC634 /* XNFetchImageColorViewController.m */,
+				D4DE333D2775C06F003CC634 /* UIImage+SubjectColor.h */,
+				D4DE333E2775C06F003CC634 /* UIImage+SubjectColor.m */,
+			);
+			path = "图片获取颜色";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +304,8 @@
 				D4DE33032775A98A003CC634 /* ViewController.m in Sources */,
 				D4DE32FD2775A98A003CC634 /* AppDelegate.m in Sources */,
 				D4DE330E2775A98C003CC634 /* main.m in Sources */,
+				D4DE333F2775C06F003CC634 /* UIImage+SubjectColor.m in Sources */,
+				D4DE33392775BE63003CC634 /* XNFetchImageColorViewController.m in Sources */,
 				D4DE33332775AAB5003CC634 /* XNTestGLkitViewController.m in Sources */,
 				D4DE33002775A98A003CC634 /* SceneDelegate.m in Sources */,
 			);

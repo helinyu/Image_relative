@@ -14,9 +14,11 @@ typedef NS_OPTIONS(NSInteger,PaletteTargetMode) {
     VIBRANT_PALETTE = 1 << 0,
     LIGHT_VIBRANT_PALETTE = 1 << 1,
     DARK_VIBRANT_PALETTE = 1 << 2,
+    
     LIGHT_MUTED_PALETTE = 1 << 3,
     MUTED_PALETTE = 1 << 4,
     DARK_MUTED_PALETTE = 1 << 5,
+    
     ALL_MODE_PALETTE = 1 << 6, //Fast path to All mode
 };
 

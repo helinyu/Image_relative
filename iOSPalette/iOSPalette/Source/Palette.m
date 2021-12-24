@@ -560,7 +560,6 @@ int hist[32768];
 
 - (void)initTargetsWithMode:(PaletteTargetMode)mode{
     NSMutableArray *targets = [[NSMutableArray alloc]init];
-    
     if (mode < VIBRANT_PALETTE || mode > ALL_MODE_PALETTE || mode == ALL_MODE_PALETTE){
         
         PaletteTarget *vibrantTarget = [[PaletteTarget alloc]initWithTargetMode:VIBRANT_PALETTE];
@@ -651,10 +650,6 @@ int hist[32768];
             colorModel.imageColorString = [swatch getColorString];
             
             colorModel.percentage = (CGFloat)[swatch getPopulation]/(CGFloat)self.pixelCount;
-            
-//            colorModel.titleTextColorString = [swatch getTitleTextColorString];
-//            colorModel.bodyTextColorString = [swatch getBodyTextColorString];
-            
             if (colorModel){
                 [finalDic setObject:colorModel forKey:[target getTargetKey]];
             }
